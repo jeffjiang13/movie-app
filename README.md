@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jeffjiang13/movie-app">
-    <img src="src/assets/images/dark2.png" alt="Filmpire" width="252" height="125">
+    <img src="src/assets/images/dark2.png" alt="Filmpire" width="252" height="155">
   </a>
 
   <h2 align="center">Movie app</h2>
