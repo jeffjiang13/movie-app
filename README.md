@@ -13,7 +13,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<a href="https://jj-movie-app.netlify.app" >DEMO
+To try out click here
+<a href="https://jj-movie-app.netlify.app" > DEMO
 
 Movie app combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
