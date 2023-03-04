@@ -1,22 +1,19 @@
 <div id="top"></div>
 
-<!-- PROJECT [othneildrew] SHIELDS -->
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/jeffjiang13/movie-app">
-    <img src="src/assets/images/lightLogo.png" alt="Filmpire" width="252" height="85">
+    <img src="src/assets/images/dark2.png" alt="Filmpire" width="252" height="85">
   </a>
 
-  <h2 align="center">Movie app - JJ</h2>
+  <h2 align="center">Movie app/h2>
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://jj-movie-app.netlify.app/)
+DEMO(https://jj-movie-app.netlify.app/)
 
 Movie app combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
