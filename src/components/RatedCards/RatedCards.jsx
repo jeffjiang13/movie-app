@@ -6,6 +6,9 @@ import { Movie } from '..';
 function RatedCards({ title, data }) {
   return (
     <Box>
+      <br />
+      <br />
+
       <Typography variant="h5" gutterBottom>{title}</Typography>
       <Box display="flex" flexWrap="wrap">
         {data?.results?.map((movie, i) => (
