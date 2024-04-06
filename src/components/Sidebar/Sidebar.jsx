@@ -9,9 +9,9 @@ import { useGetGenresQuery } from '../../services/TMDB';
 import genreCategoryIcons from '../../assets/genres and categories';
 import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
 
-import lightLogo from '../../assets/images/dark2.png';
+import lightLogo from '../../assets/images/dark.png';
 import darkLogo from '../../assets/images/dark2.png';
-
+/* eslint-disable */
 const categories = [
   { label: 'Popular', value: 'popular' },
   { label: 'Top Rated', value: 'top_rated' },

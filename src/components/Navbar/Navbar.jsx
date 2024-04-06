@@ -39,6 +39,7 @@ function Navbar() {
   const { isAuthenticated, user } = useSelector(userSelector); //notice: <=> useSelector((state) => state.currentUser)
 
   const colorMode = useContext(ColorModeContext);
+  console.log(user);
 
   return (
     <>

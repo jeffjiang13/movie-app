@@ -24,16 +24,19 @@ export const fetchToken = async () => {
 export const createSessionId = async () => {
   const token = localStorage.getItem('request_token');
 
-  if (token) {
-    try {
-      const { data: { session_id } } = await moviesApi.post('/authentication/session/new', {
-        request_token: token,
-      });
-      localStorage.setItem('session_id', session_id);
+  if (!token) {
+    console.log('No request token found.');
+    return null;
+  }
 
-      return session_id;
-    } catch (error) {
-      console.log('Your session id could not be created.');
-    }
+  try {
+    const { data: { session_id } } = await moviesApi.post('/authentication/session/new', {
+      request_token: token,
+    });
+    localStorage.setItem('session_id', session_id);
+    return session_id;
+  } catch (error) {
+    console.log('Your session id could not be created.');
+    return null;
   }
 };

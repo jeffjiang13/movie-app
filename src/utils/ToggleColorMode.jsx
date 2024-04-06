@@ -2,7 +2,7 @@ import React, { useState, useMemo, createContext } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 export const ColorModeContext = createContext();
-
+/* eslint-disable */
 function ToggleColorMode({ children }) {
   const [mode, setMode] = useState('light');
 
