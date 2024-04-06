@@ -14,7 +14,7 @@ Improving your README can significantly enhance how others perceive and interact
   <p align="center">
     An immersive movie browsing experience powered by modern web technologies.
     <br />
-    <a href="https://jj-movie-app.netlify.app"><strong>Explore the Demo »</strong></a>
+    <a href="https://jj-movie-app.vercel.app"><strong>Explore the Demo »</strong></a>
     <br />
     <br />
     <a href="https://github.com/jeffjiang13/movie-app/issues">Report Bug</a>
